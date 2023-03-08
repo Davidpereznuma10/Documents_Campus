@@ -1,4 +1,4 @@
-const Metodo_Replace= ("this its a example of method replace, and this is so usefull when you just wanna take one piece of a text");
+const Metodo_Slice= ("Michael Keaton (1989-1992, 2023) To the original Batman of the big screen goes the crown. Unflinching, un-phased, unyielding, understated, unpretentious, and numerous other un- words, Michael Keaton's Batman really is the silent warrior at the gates.\nBatman found a new ally in a cop named John Blake, who'd also deduced the Dark Knight's secret identity as Bruce Wayne. This Batman quote lines up with the movie's focus on legacy, as Bruce Wayne began preparing John to potentially take over as the new Dark Knight after he retired.");
 
-console.log(Metodo_Replace);
-console.log(Metodo_Replace.replace("example","other point"));
+console.log(Metodo_Slice.length);
+console.log(Metodo_Slice.slice("251","515"));
