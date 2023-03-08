@@ -1,4 +1,4 @@
-const Method_indexOf= ["Hola","mundo", "Como","Estas"]
+const Method_toUpperCase= ("La h repeticion de la repetidera");
 
-var index=Method_indexOf.indexOf("mundo");
-var index=Method_indexOf.indexOf("Hola");
+console.log(Method_toUpperCase);
+console.log(Method_toUpperCase.toUpperCase());
