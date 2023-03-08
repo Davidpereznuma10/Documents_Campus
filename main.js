@@ -1,4 +1,4 @@
-const Method_toUpperCase= ("La h repeticion de la repetidera");
+const Method_toLowerCase= ("LA REPETICION DE LA REPETIDERA EN MAYUSCULA QUE CAMBIA CUANDO USAMOS toLowerCase");
 
-console.log(Method_toUpperCase);
-console.log(Method_toUpperCase.toUpperCase());
+console.log(Method_toLowerCase);
+console.log(Method_toLowerCase.toLowerCase());
