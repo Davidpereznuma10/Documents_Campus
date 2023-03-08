@@ -1,5 +1,5 @@
-const Metodo_lenght= ("Este es un ejemplo de metodo lenght");
+const Metodo_includes= ("this its a example of method includes");
 
-console.log(Metodo_lenght.length)
-
-// En este caso la candena de texto tiene 35 carcteres
+console.log(Metodo_includes.includes("t","m"));
+console.log(Metodo_includes.includes("Meet"));
+console.log(Metodo_includes.includes("includes"))
