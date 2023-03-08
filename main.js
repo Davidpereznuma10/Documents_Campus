@@ -1,4 +1,4 @@
-const Method_CodePointAt= ("La h repeticion de la repetidera");
+const Method_indexOf= ["Hola","mundo", "Como","Estas"]
 
-console.log(Method_CodePointAt.codePointAt(1));
-console.log(Method_CodePointAt.codePointAt(4));
+var index=Method_indexOf.indexOf("mundo");
+var index=Method_indexOf.indexOf("Hola");
