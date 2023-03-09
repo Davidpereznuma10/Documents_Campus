@@ -1,1 +1,4 @@
-this is the principal page to Documents and investigation that i mede in campus
+This branch is to thirt activity about types of operators
+1.aricmatic.
+2.comparison 
+3.logical
