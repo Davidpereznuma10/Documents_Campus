@@ -1,10 +1,6 @@
-// Pi  (".Pi")
-const radius =7;
-//Example 1
+// Pow  (".Pow")
+const operation=Math.pow(2,3);
+//compare 
+const compartion= 2 ** 3;
 
-const area = Math.PI * radius * radius;
-console.log("Area of the circle: " + area);
-
-//Example 2
-let circumference = 2 * Math.PI * radius;
-console.log("Circumference of the circle: " + circumference);
+console.log(`this is the Example:${operation}\nThis is the comparation: ${compartion}`)
