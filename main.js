@@ -1,8 +1,10 @@
-// Min  ("Math.min")
+// toFixed  (".toFixed")
 //Example 1
-const myArray=Math.min(90,64,23,65,654,76,95,34,85,99,48);
-console.log(myArray);
+const num = 3.14159265359;
+const roundedNum = num.toFixed(2);
+console.log(roundedNum);
+
 //Example 2
-const myArray2=[90,64,23,65,654,76,95,34,85,99,48];
-const newArray = Math.min(...myArray2);
-console.log(newArray);
+const num1 = 16.65461298432;
+const roundedNum1 = num1.toFixed(5);
+console.log(roundedNum1);
