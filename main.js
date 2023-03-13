@@ -1,7 +1,9 @@
-// Ramdom  (".ramdom")
+// Sqrt  (".Sqrt")
 // Example 1
-var randomNumberF = Math.floor(Math.random() * 10);
-console.log(`This way print a rounds a number down to its nearest integer: ${randomNumberF}`);
+let num = 81;
+let Rta= Math.sqrt(num);
+console.log(`The square root of a  ${num} is: ${Rta}`);
 //Example 2
-var randomNumberC = Math.ceil(Math.random() * 10);
-console.log(`This way print a rounds a number up to its nearest integer:${randomNumberC}`)
+let num2 = 20;
+let Rta2= Math.sqrt(num2);
+console.log(`The square root of a  ${num2} is: ${Rta2}`);
