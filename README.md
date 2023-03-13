@@ -18,7 +18,7 @@ New information makes new ideas possible
 ------------
                                                            
 # <h1 align="center">[Activity_3_js](https://github.com/Davidpereznuma10/Documents_Campus/tree/Activity_3_js "Activity_3_js")</h1>
-This branch is created for a PYTHON project.
+This branch is created for a investigation about type of Operators on  JavaScript.
 
 + Arithmetic Operators
 
