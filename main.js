@@ -1,9 +1,7 @@
-// Trunc  (".trunc")
+// Round  (".round")
 // Example 1
-let num = 23.44565417815447;
-let trunc= Math.trunc(num);
-console.log(`Return just the entire part: ${trunc}`);
-//Example 2
-let num2 = -25.7;
-let trunc2= Math.trunc(num2);
-console.log(`How in this case is negative print the number closest to 0: ${trunc2}`);
+let num1 = Math.round(8.279);
+console.log(num1);
+// Example 2
+let num2 = Math.round(232.55);
+console.log(num2);
