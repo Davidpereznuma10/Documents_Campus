@@ -1,9 +1,9 @@
-// Sqrt  (".Sqrt")
+// Trunc  (".trunc")
 // Example 1
-let num = 81;
-let Rta= Math.sqrt(num);
-console.log(`The square root of a  ${num} is: ${Rta}`);
+let num = 23.44565417815447;
+let trunc= Math.trunc(num);
+console.log(`Return just the entire part: ${trunc}`);
 //Example 2
-let num2 = 20;
-let Rta2= Math.sqrt(num2);
-console.log(`The square root of a  ${num2} is: ${Rta2}`);
+let num2 = -25.7;
+let trunc2= Math.trunc(num2);
+console.log(`How in this case is negative print the number closest to 0: ${trunc2}`);
