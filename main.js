@@ -1,7 +1,10 @@
-// "="  ("=")
-let value="Hi";
-var value2=23;
-const value3=true;
-
-console.log(`Add valor to:\n${value}\n${value2}\n${value3}`);
+// "+="  ("+=")
+//Example 1
+let x= 2;
+x += 3;
+console.log(`${x}`);
+//Example 2
+let y= 8;
+y += 2;
+console.log(`${y}`);
 
