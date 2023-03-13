@@ -12,7 +12,7 @@ New information makes new ideas possible
    </h4>
 
 <p align="center">
-   <img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green">
+   <img src="https://img.shields.io/badge/STATE-DEVELOPING-green">
 </p>
 
 ------------
