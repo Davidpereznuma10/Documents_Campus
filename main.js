@@ -1,10 +1,18 @@
-// "%="  ("%=")
+// "=="  ("==")
 //Example 1
-let x= 25;
-x %= 3;
-console.log(`${x}`);
+let a = 5;
+let b = '5';
+if (a == b) {
+    console.log('a and b are equal');
+} else {
+    console.log('a and b are not equal');
+}
 //Example 2
-let y= 240;
-y %= 7;
-console.log(`${y}`);
+let x = 5;
+let y = '6';
+if (x == y) {
+    console.log('x and y are equal');
+} else {
+    console.log('x and y are not equal');
+}
 
