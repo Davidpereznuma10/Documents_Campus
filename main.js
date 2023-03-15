@@ -1,4 +1,6 @@
-//Functions like objects
-const Hello = new Function("return 'Hello Word';");
+//Anonymous functions
+const Hello = function(){
+    return 'Hello Word'
+};
 console.log (Hello());
 console.log(typeof(Hello))
