@@ -1,7 +1,4 @@
-//Functions by expression
-
-const Hello = function hi (){
-    return "Hello world"
-};
+//Functions like objects
+const Hello = new Function("return 'Hello Word';");
 console.log (Hello());
 console.log(typeof(Hello))
