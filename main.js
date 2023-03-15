@@ -1,6 +1,11 @@
-//Anonymous functions
-const Hello = function(){
-    return 'Hello Word'
-};
-console.log (Hello());
-console.log(typeof(Hello))
+//callbacks
+const fB = function () {
+    console.log("Hello world.");
+  };
+  
+
+  const fA = function (callback) {
+    callback();
+  };
+  
+  fA(fB);
