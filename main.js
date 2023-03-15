@@ -1,11 +1,11 @@
-//callbacks
-const fB = function () {
-    console.log("Hello world.");
-  };
-  
+//Self-executing functions
 
-  const fA = function (callback) {
-    callback();
-  };
+//Example 1
+(function () {
+    console.log("Hola!!");
+  })();
   
-  fA(fB);
+//Example 2
+  (function (name) {
+    console.log(`¡Hola, ${name}!`);
+  })("David");
