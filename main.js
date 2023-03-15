@@ -1,11 +1,14 @@
-//Self-executing functions
+//closures
 
-//Example 1
-(function () {
-    console.log("Hola!!");
+const up = (function () {
+    let i = 0;
+    return function () {
+      i+=2;
+      return i;
+    };
   })();
   
-//Example 2
-  (function (name) {
-    console.log(`¡Hola, ${name}!`);
-  })("David");
+  typeof up; 
+  console.log(up()); 
+  console.log(up()); 
+  console.log(up()); 
