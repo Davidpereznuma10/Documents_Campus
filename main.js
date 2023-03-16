@@ -1,14 +1,26 @@
-//Arrow function
+//Lexical scope This
 
-const up = ( () => {
-    let i = 0;
-    return  () => {
-      i+=2;
-      return i;
-    };
-  })();
-  
-  typeof up; 
-  console.log(up()); 
-  console.log(up()); 
-  console.log(up()); 
+// Example 1
+const a = function () {
+  console.log(this);
+};
+const b = () => {
+  console.log(this);
+};
+
+a();
+b();
+
+//Example 2
+
+father = {
+  a: function () {
+    console.log(this);
+  },
+  b: () => {
+    console.log(this);
+  },
+};
+
+father.a();
+father.b();
